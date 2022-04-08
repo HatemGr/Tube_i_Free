@@ -1,0 +1,158 @@
+.rating {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.ratingcol{
+  color: orange;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+body, h6{margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+  
+  
+  .promo{
+      position: fixed;
+      z-index: 8;
+      width: 100%;
+      background-color: #EC4C4C;
+      text-align: center;
+      padding: 7px 0px;
+  }
+  
+  .promo h6{
+      color: white;
+      font-weight: 500;
+      font-size: 1rem ;
+  }
+  
+  .hero-content{
+      height: 100vh;
+      display: flex;
+      background-color:#EADCA6 ;
+      overflow: hidden;
+  
+  }
+  
+  .hero-right{
+      width: 40%;
+      background-color: #EEB969;
+      position: relative;
+  }
+  
+  .hero-right img{
+      position: absolute;
+  }
+  
+  .hero-right img:first-child{
+      position: absolute;
+      width: 130%;
+      top: 30%;
+      right: -30;
+  }
+  
+  .hero-right img:last-child{
+      position: absolute;
+      width: 90%;
+      top: 30%;
+  }
+  
+  .hero-left{
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 100px 0px 100px 100px;
+  }
+  
+  .hero-left h1{
+      font-size: 80px;
+      font-weight: 800;
+  
+  }
+  
+  .hero-left h5{
+      margin-top: 10px;
+      font-size: 26px;
+      font-weight: 300;
+      width: 80%;
+  
+  }
+  .hero-left p{
+      font-weight: 600;
+      color: #DF1E1E;
+      font-size: 40px;
+  }
+  .hero-left button{
+      background-color: #699EEE;
+      border-radius: 5px;
+      color: white;
+      border-style: none;
+      padding: 7px 14px;
+      margin-top: 30px;
+      font-size: 19px;
+  }
+  
+
+  .tag{
+      display: inline-block;
+      color: white;
+      background-color: #C36A2D;
+      padding: 7px 17px;
+      border-radius: 5px;
+  }
+  
+  
+  @media screen and (max-width: 1000px){
+      .hero-content{
+          flex-direction: column;
+          height: 1000px;
+      }
+  
+      .hero-left{
+          width: 100%;
+          padding: 100px 0px 100px 40px;
+      }
+  
+      .hero-left h1{
+          font-size: 60px;
+      }
+  
+      .hero-right{
+          width: 100%;
+          height: 100%;
+      }
+      
+      .hero-right img:first-child{
+          width: 100%;
+          top: 20;
+          right: 0;
+      }
+      
+      .hero-right img:last-child{
+          width: 90%;
+          top: 0;
+      }
+  }
+
+  .btn-bg{
+    background-color: lightgray;
+  }
+  
+  .btn-bg:hover{
+    background-color: #699EEE;
+    color:white
+  }
+
+  footer a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
